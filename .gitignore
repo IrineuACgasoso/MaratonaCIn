@@ -1,0 +1,27 @@
+# Executáveis do Windows, Linux e macOS
+*.exe
+*.out
+*.app
+*.o
+*.a
+*.so
+*.dll
+
+# Ficheiros sem extensão gerados por compilações em Linux/macOS
+# (ignora executáveis com o mesmo nome do código sem extensão)
+[a-z]
+[a-z].*
+![a-z].cpp
+![a-z].c
+
+# Pastas de saída do VS Code e extensões
+output/
+bin/
+build/
+
+# Pasta temporária da extensão Competitive Programming Helper (.cph)
+.cph/
+
+# Configurações do ambiente de debug do VS Code (opcional)
+.vscode/tasks.json
+.vscode/launch.json
