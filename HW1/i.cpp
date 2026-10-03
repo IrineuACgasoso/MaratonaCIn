@@ -25,7 +25,7 @@ int solve() {
         ll soma = pref[b] - pref[a - 1];
         cout << soma << "\n";
     }
-    return 0;    
+    return 0;
 }
 
 int main() {
